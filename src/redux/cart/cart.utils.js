@@ -4,12 +4,12 @@ const addItemToCart = (cartItems, itemToAdd) => {
     if (existingCartItem) {
         return cartItems.map(item => (
             item.id === itemToAdd.id ?
-                {...item, quanity: item.quanity + 1}
+                {...item, quantity: item.quantity + 1}
             :
                 item
         ))
     } else {
-        return [...cartItems, {...itemToAdd, quanity: 1}];
+        return [...cartItems, {...itemToAdd, quantity: 1}];
     }
 }
 
