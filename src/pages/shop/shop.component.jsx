@@ -1,4 +1,6 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
+
 import CollectionPreview from '../../components/collection-preview/collection-preview.component'
 
 import SHOP_DATA from './shop.data';

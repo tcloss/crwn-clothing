@@ -1,10 +1,12 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 import CollectionItem from '../collection-item/collection-item.component';
 
 import './collection-preview.styles.scss'
 
-const CollectionPreview = ({ id, title, items }) => (
+const CollectionPreview = ({ id, title, items }) =>
+(
     <div className='collection-preview'>
         <div className='title'>{title.toUpperCase()}</div>
         <div className='preview'>
