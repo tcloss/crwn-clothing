@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom';
 import { createStructuredSelector } from 'reselect'
 
 import { selectCurrentUser } from '../../redux/user/user.selectors'
-import CustomButton from '../custom-button/custom-button.componet';
+import CustomButton from '../custom-button/custom-button.component';
 import CartItem from '../cart-item/cart-item.component';
 
 import './cart-dropdown.styles.scss';
